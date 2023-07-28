@@ -1,40 +1,29 @@
-## Getting Started
+# Contact Book DApp
 
-Create a project using this example:
+Hallo! Willkommen bei meiner dezentralisierten Anwendung (DApp), dem Contact Book. Diese Anwendung wurde mit ThirdWeb und Next.js erstellt und erlaubt es Benutzern, ihre Wallet (digitale Brieftasche) zu verbinden und Kontakte hinzuzufügen und anzusehen.
 
-```bash
-npx thirdweb create --template next-typescript-starter
-```
+![Alt text](image.png)
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Wie du diese Anwendung selbst ausprobieren kannst
 
-On `pages/_app.tsx`, you'll find our `ThirdwebProvider` wrapping your app, this is necessary for our [hooks](https://portal.thirdweb.com/react) and
-[UI Components](https://portal.thirdweb.com/ui-components) to work.
-
-## Environment Variables
-
-To run this project, you will need to add environment variables. Check the `.env.example` file for all the environment variables required and add it to `.env.local` file or set them up on your hosting provider.
-
-## Deploy to IPFS
-
-Deploy a copy of your application to IPFS using the following command:
+1. Du musst zuerst eine Kopie von diesem Code auf deinen Computer herunterladen. Das nennt man "klonen". Du kannst das tun, indem du den folgenden Befehl in deinem Terminal eingibst:
 
 ```bash
-yarn deploy
+git clone https://github.com/Gracing47/contactbookweb.git
 ```
 
-## Learn More
+2. Nachdem du den Code geklont hast, musst du in das Verzeichnis (Ordner) des Projekts wechseln und alle benötigten Softwareteile installieren. Du kannst das tun, indem du die folgenden Befehle in deinem Terminal eingibst:
 
-To learn more about thirdweb and Next.js, take a look at the following resources:
+```bash
+cd contactbookweb
+npm install
+```
 
-- [thirdweb React Documentation](https://docs.thirdweb.com/react) - learn about our React SDK.
-- [thirdweb TypeScript Documentation](https://docs.thirdweb.com/typescript) - learn about our JavaScript/TypeScript SDK.
-- [thirdweb Portal](https://docs.thirdweb.com) - check our guides and development resources.
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Templates](https://thirdweb.com/templates)
+3. Jetzt kannst du die Anwendung starten und in deinem Webbrowser ausprobieren! Gib dazu den folgenden Befehl in dein Terminal ein:
 
-You can check out [the thirdweb GitHub organization](https://github.com/thirdweb-dev) - your feedback and contributions are welcome!
+```bash
+npm run dev
+```
 
-## Join our Discord!
+Jetzt solltest du in der Lage sein, die Anwendung in deinem Webbrowser zu öffnen, indem du http://localhost:3000 in die Adressleiste eingibst.
 
-For any questions, suggestions, join our discord at [https://discord.gg/thirdweb](https://discord.gg/thirdweb).
